@@ -64,5 +64,154 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-itsbaba-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://itsbaba.com/
+itsbaba.com offers a Hebrew‑English translation service with gender‑aware output, slang, idioms, and transliteration. The platform provides a public API that lets developers integrate bidirectional translation into applications, supporting free starter usage and paid plans. Documentation, quickstart guides, and reference material are hosted across its subdomains, with OpenAPI specifications available for the core translation endpoints.
+
+**Areas:** Company · Translation · Hebrew · Language · API
+
+## itsbaba-com on APIs.io
+
+Everything profiled for itsbaba-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/itsbaba-com/](https://apis.io/providers/itsbaba-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (17)
+
+- [itsbaba-com Account Terms API](https://apis.io/apis/itsbaba-com/itsbaba-com-account-terms-api/) — A persistent list of names that must never change in translation: drug names, product names, brand names. Applied to every protected translation by…
+- [itsbaba-com Blindspots API](https://apis.io/apis/itsbaba-com/itsbaba-com-blindspots-api/) — Coverage gaps, by camp.
+- [itsbaba-com Brief API](https://apis.io/apis/itsbaba-com/itsbaba-com-brief-api/) — Today in Brief.
+- [itsbaba-com Changes API](https://apis.io/apis/itsbaba-com/itsbaba-com-changes-api/) — Incremental change feed for sync.
+- [itsbaba-com Directionality API](https://apis.io/apis/itsbaba-com/itsbaba-com-directionality-api/) — Deterministic RTL/LTR analysis, render-ready display output and language detection. No model, no character quota.
+- [itsbaba-com Export API](https://apis.io/apis/itsbaba-com/itsbaba-com-export-api/) — The export API from itsbaba-com — 1 operation(s) for export.
+- [itsbaba-com Hebrew API](https://apis.io/apis/itsbaba-com/itsbaba-com-hebrew-api/) — Nikud (vowel points) for display and speech, and removing them for search and normalization.
+- [itsbaba-com Medical API](https://apis.io/apis/itsbaba-com/itsbaba-com-medical-api/) — Verified clinical translation from English to Hebrew, streaming, record-search queries and verification. Enabled per account; keys need the `medical` scope…
+- [itsbaba-com People API](https://apis.io/apis/itsbaba-com/itsbaba-com-people-api/) — People named in the last 24 hours.
+- [itsbaba-com Reference API](https://apis.io/apis/itsbaba-com/itsbaba-com-reference-api/) — Supported languages and the public health check.
+- [itsbaba-com Search API](https://apis.io/apis/itsbaba-com/itsbaba-com-search-api/) — Headline and entity search.
+- [itsbaba-com Sources API](https://apis.io/apis/itsbaba-com/itsbaba-com-sources-api/) — Newsrooms in the wire.
+- [itsbaba-com Stories API](https://apis.io/apis/itsbaba-com/itsbaba-com-stories-api/) — Clustered coverage.
+- [itsbaba-com Threads API](https://apis.io/apis/itsbaba-com/itsbaba-com-threads-api/) — Running multi-day stories.
+- [itsbaba-com Topics API](https://apis.io/apis/itsbaba-com/itsbaba-com-topics-api/) — The desk register with live volume.
+- [itsbaba-com Translation API](https://apis.io/apis/itsbaba-com/itsbaba-com-translation-api/) — Translation, protected translation, batches and transliteration. Model-backed: consumes the character quota.
+- [itsbaba-com Trending API](https://apis.io/apis/itsbaba-com/itsbaba-com-trending-api/) — What is accelerating right now.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Itsbaba Com Agentic Access](https://apis.io/agentic-access/itsbaba-com/itsbaba-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BatchTranslateRequest](https://apis.io/schemas/itsbaba-com/itsbaba-com-batch-translate-request/)
+- [DetectResponse](https://apis.io/schemas/itsbaba-com/itsbaba-com-detect-response/)
+- [MedicalQueryRequest](https://apis.io/schemas/itsbaba-com/itsbaba-com-medical-query-request/)
+- [MedicalTranslateRequest](https://apis.io/schemas/itsbaba-com/itsbaba-com-medical-translate-request/)
+- [MedicalVerifyRequest](https://apis.io/schemas/itsbaba-com/itsbaba-com-medical-verify-request/)
+- [TranslateRequest](https://apis.io/schemas/itsbaba-com/itsbaba-com-translate-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Itsbaba Com Context](https://apis.io/jsonld/itsbaba-com/itsbaba-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [itsbaba-com API Rules](https://apis.io/rules/itsbaba-com/itsbaba-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Itsbaba Com Authentication](https://apis.io/security/itsbaba-com/itsbaba-com-authentication/)
+- [Itsbaba Com Domain Security](https://apis.io/security/itsbaba-com/itsbaba-com-domain-security/)
+- [Itsbaba Com Vulnerability Disclosure](https://apis.io/security/itsbaba-com/itsbaba-com-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Itsbaba Com Scopes](https://apis.io/scopes/itsbaba-com/itsbaba-com-scopes/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Itsbaba Com Rate Limits](https://apis.io/rate-limits/itsbaba-com/itsbaba-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://itsbaba.com/)
+- [Documentation](https://hc.itsbaba.com/docs)
+- [Getting started](https://news.itsbaba.com/developers/docs/quickstart)
+- [API reference](https://hc.itsbaba.com/reference)
+- [Pricing](https://www.itsbaba.com/pricing)
+- [Support](https://www.itsbaba.com/support)
+- [Changelog](https://www.itsbaba.com/hebrew-phrases/whats-new)
+- [Blog](https://www.itsbaba.com/blog)
+- [Security](https://www.itsbaba.com/privacy)
+- [Terms of service](https://www.itsbaba.com/terms)
+- [Privacy policy](https://www.itsbaba.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 62.7** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 60.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 45.3 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 44.7 |
+
+**Agent readiness 48.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/itsbaba-com/](https://apis.io/providers/itsbaba-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for itsbaba-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/itsbaba-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
